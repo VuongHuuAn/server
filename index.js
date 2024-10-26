@@ -25,6 +25,4 @@ mongoose
   .catch((e) => {
     console.log(e);
   });
-app.listen(PORT, () => {
-  console.log(`connected at port ${PORT}`);
-});
+  module.exports = app;
