@@ -1,17 +1,16 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "20.x"
-  },
   "scripts": {
     "start": "node ./index.js",
     "dev": "nodemon ./index.js"
   },
+  
   "author": "",
   "license": "ISC",
-  "description": "",
+  
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "express": "^4.19.2",
