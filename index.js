@@ -2,7 +2,7 @@ console.log("Hello World");
 const express = require("express");
 const authRouter = require("./routes/auth");
 const { default: mongoose } = require("mongoose");
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const app = express();
 const DB =
   "mongodb+srv://anvuong156:super156@cluster0.zgceu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
